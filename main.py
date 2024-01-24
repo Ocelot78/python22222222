@@ -187,3 +187,44 @@
 #     liczba += 10  
 #   return suma
 # print(suma_liczb_konczacych_sie_21(int(input())))
+#KartaPracy
+#zad 2
+# n = int(input())
+# suma = 0
+# for i in range(n+1):
+#   suma += i
+
+# print(suma)
+# def suma_cyfr(n):
+#   return sum(int(digit) for digit in str(n))
+# print(suma_cyfr(int(input())))
+
+
+# def silnia(n):
+#   if n == 0:
+#     return 1
+#   else:
+#     return n * silnia(n-1)
+# print(silnia(int(input())))
+#Stwórz funkcję, która obliczy sumę dwucyfrowych liczb pierwszych
+# def pierwsza(numer):
+#     return all(numer % i != 0 for i in range(2, int(numer ** 0.5) + 1))
+
+# def suma_dwoch():
+#   suma = 0
+#   for i in range(10, 100):
+#     if pierwsza(i):
+#       suma += i
+#   print(suma)
+
+# suma_dwoch()
+
+# 2**15 = 32768 oraz suma cyfr tej liczby to 3 + 2 + 7 + 6 + 8 = 32. Ile wynosi suma cyfr 2**2019?
+# def suma(a,b):
+#   suma = a + b
+#   if suma%2 >= 1:
+#     print("Suma nieparzysta")
+#   else:
+#     print("Suma parzysta")
+# suma(int(input()),int(input()))
+
